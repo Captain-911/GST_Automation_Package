@@ -1,0 +1,22 @@
+# Never commit real client data - only the placeholder TEMPLATE workbook belongs in this repo
+*.xlsm
+Clients*.xlsx
+clients*.xlsx
+!templates/GST_Returns_Automation_TEMPLATE.xlsx
+
+# Runtime hand-off / log files created while the tool runs
+jobs/
+*.result.txt
+job_*.txt
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
